@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\Kwella.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\Image1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Image1.png"
+    },
+    {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\app-store-badge.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\app-store-badge.svg"
+    },
+    {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\cx.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\cx.svg"
+    },
+    {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\google-play-badge.svg"
+    },
+    {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

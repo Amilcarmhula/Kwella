@@ -10,24 +10,39 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Kwella</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Kwellasa</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+
+
+                        <li class="nav-item"><a class="nav-link me-lg-2" href="#inicio">Wella</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-2" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-2" href="#servicos">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-2" href="#download">Download</a></li>
+
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-dark rounded-pill px-3 mb-2 mb-lg-0">
+                                Social
+                            </button>
+                        </div>
+
+
                     </ul>
-                    <partial name="_LoginPartial" />
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" >
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <span class="small">Contact us</span>
+                        </span>
+                    </button>
                 </div>
+
             </div>
         </nav>
     </header>
@@ -36,10 +51,13 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Kwella - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </br>
+    <footer class=" footer text-muted">
+        <div class="container text-center">
+            &copy; Kwellaa 2024. All Rights Reserved.</br>
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> 
+            <a asp-area="" asp-controller="Home" asp-action="Terms">Terms</a> 
+            <a asp-area="" asp-controller="Home" asp-action="FAQ">FAQ</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
