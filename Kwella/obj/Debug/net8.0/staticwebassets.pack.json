@@ -17,8 +17,16 @@
       "PackagePath": "staticwebassets\\assets\\img\\cx.svg"
     },
     {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge (1).svg",
+      "PackagePath": "staticwebassets\\assets\\img\\google-play-badge (1).svg"
+    },
+    {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge.svg",
       "PackagePath": "staticwebassets\\assets\\img\\google-play-badge.svg"
+    },
+    {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\css\\site.css",

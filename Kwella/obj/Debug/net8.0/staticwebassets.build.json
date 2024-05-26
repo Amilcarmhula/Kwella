@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cVQJ4XpOJbz1U4rQI5rV9aPmcOB9HP8YqS+oAT0XYqM=",
+  "Hash": "VbgEQfgDryohkQVKxPXnopOUS3wWSZ1OAqfVftx5zVQ=",
   "Source": "Kwella",
   "BasePath": "_content/Kwella",
   "Mode": "Default",
@@ -1233,6 +1233,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\cx.svg"
     },
     {
+      "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge (1).svg",
+      "SourceId": "Kwella",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\",
+      "BasePath": "_content/Kwella",
+      "RelativePath": "assets/img/google-play-badge (1).svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\google-play-badge (1).svg"
+    },
+    {
       "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge.svg",
       "SourceId": "Kwella",
       "SourceType": "Discovered",
@@ -1269,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\Image1.png"
+    },
+    {
+      "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\logo.png",
+      "SourceId": "Kwella",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\",
+      "BasePath": "_content/Kwella",
+      "RelativePath": "assets/img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\logo.png"
     },
     {
       "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\css\\site.css",
