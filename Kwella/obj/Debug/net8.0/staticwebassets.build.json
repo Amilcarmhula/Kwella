@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VbgEQfgDryohkQVKxPXnopOUS3wWSZ1OAqfVftx5zVQ=",
+  "Hash": "jyzKweIW1ADb837v4q7GCGTV0h5Ki8gPd7NEeh9OrQY=",
   "Source": "Kwella",
   "BasePath": "_content/Kwella",
   "Mode": "Default",
@@ -1290,6 +1290,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\Image1.png"
     },
     {
+      "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\Image2.png",
+      "SourceId": "Kwella",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\",
+      "BasePath": "_content/Kwella",
+      "RelativePath": "assets/img/Image2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\Image2.png"
+    },
+    {
       "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\logo.png",
       "SourceId": "Kwella",
       "SourceType": "Discovered",
@@ -1307,6 +1326,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\motocarga.png",
+      "SourceId": "Kwella",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\",
+      "BasePath": "_content/Kwella",
+      "RelativePath": "assets/img/motocarga.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\motocarga.png"
     },
     {
       "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\css\\site.css",

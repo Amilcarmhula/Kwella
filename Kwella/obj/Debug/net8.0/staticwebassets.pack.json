@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\Image1.png"
     },
     {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\Image2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Image2.png"
+    },
+    {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\app-store-badge.svg",
       "PackagePath": "staticwebassets\\assets\\img\\app-store-badge.svg"
     },
@@ -27,6 +31,10 @@
     {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\motocarga.png",
+      "PackagePath": "staticwebassets\\assets\\img\\motocarga.png"
     },
     {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\css\\site.css",
