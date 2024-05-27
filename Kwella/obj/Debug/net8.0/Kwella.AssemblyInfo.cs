@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kwella")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdf56f27ddc7472304b86115212a8a74dbf8b70c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87b03f6cc0b5d6aec2ef53dc3b8a10c5c4a1e2cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kwella")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kwella")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
