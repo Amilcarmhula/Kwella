@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jyzKweIW1ADb837v4q7GCGTV0h5Ki8gPd7NEeh9OrQY=",
+  "Hash": "gwsftLF/2yY5o4fLGJB0YLnRTWz0RTyBmphOpwvn44I=",
   "Source": "Kwella",
   "BasePath": "_content/Kwella",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Kwella.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\about-image.png",
+      "SourceId": "Kwella",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\",
+      "BasePath": "_content/Kwella",
+      "RelativePath": "assets/img/about-image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\about-image.png"
+    },
+    {
       "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\app-store-badge.svg",
       "SourceId": "Kwella",
       "SourceType": "Discovered",
@@ -1250,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\google-play-badge (1).svg"
+    },
+    {
+      "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge (2).svg",
+      "SourceId": "Kwella",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\",
+      "BasePath": "_content/Kwella",
+      "RelativePath": "assets/img/google-play-badge (2).svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\google-play-badge (2).svg"
     },
     {
       "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge.svg",
@@ -1345,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\motocarga.png"
+    },
+    {
+      "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\service-image.png",
+      "SourceId": "Kwella",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\",
+      "BasePath": "_content/Kwella",
+      "RelativePath": "assets/img/service-image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\service-image.png"
     },
     {
       "Identity": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\css\\site.css",

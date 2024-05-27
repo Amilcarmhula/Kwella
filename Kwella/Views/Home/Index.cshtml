@@ -3,8 +3,8 @@
 }
 
 <!--Landing Section - Inicio -->
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center" id="inicio" style="height: 85vh;">
+<div class="container px-5" id="inicio" style="height: 85vh;">
+        <div class="row gx-5 align-items-center" >
             <div class="col-lg-6">
                 <div class="mb-5 mb-lg-0 text-center text-lg-start">
                     <h1 class="display-1 lh-1 mb-3">Wella</h1>
@@ -128,23 +128,31 @@
         </div>
     </div>
 
-<!--About Section - Wellaa--><div class="container">
-    <div class="row">
-        <div class="col">
+<!--About Section - Wellaa-->
+<div class="container px-5" id="sobre">
+    <div class="row align-items-center justify-content-center justify-content-lg-between">
+        <div class="col-12 col-lg-5">
             <h2>Kwellaa</h2>
-            <p>
+            <p class="lead fw-normal text-muted mb-5 mb-lg-0" style="text-align: justify;">
                 Fundada em 2018, a Kwellaa iniciou suas operações na área de transporte de pessoal e boleia
                 compartilhada, marcando seu início no setor de transporte em Moçambique. Destaque na revista DW
-                África, a Kwellaa recebeu reconhecimento pelaSua inovação e contribuição para o transporte no
+                África, a Kwellaa recebeu reconhecimento pela sua inovação e contribuição para o transporte no
                 continente.
             </p>
-            <button>Sobre o Kwellaa</button>
-        </div>
-        <div class="col">
-            <div class="text-center"></div>
-            <img src="~/assets/img/Image2.png" width="90%" height="150%" alt="">
+            <!-- na ancora usar propriedades asp para chamar a view Sobre-->
+            <a class="btn btn-outline-dark rounded-pill py-2 px-5 mt-4 " href="#">Sobre o Kwellaa</a>
         </div>
     </div>
+
+        <div class="col">
+            <div class="text-center"></div>
+            <img src="~/assets/img/about-image.png" width="80%" height="80%" alt="">
+        </div>
+    </div>
+
+
+<!--Services Section - Wellaa-->
+<div class="container" id="servicos">
     <div class="row">
         <div class="col">
             <div class="container-fluid">

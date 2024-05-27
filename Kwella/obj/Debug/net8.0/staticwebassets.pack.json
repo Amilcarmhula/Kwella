@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\Image2.png"
     },
     {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\about-image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about-image.png"
+    },
+    {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\app-store-badge.svg",
       "PackagePath": "staticwebassets\\assets\\img\\app-store-badge.svg"
     },
@@ -25,6 +29,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\google-play-badge (1).svg"
     },
     {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge (2).svg",
+      "PackagePath": "staticwebassets\\assets\\img\\google-play-badge (2).svg"
+    },
+    {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\google-play-badge.svg",
       "PackagePath": "staticwebassets\\assets\\img\\google-play-badge.svg"
     },
@@ -35,6 +43,10 @@
     {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\motocarga.png",
       "PackagePath": "staticwebassets\\assets\\img\\motocarga.png"
+    },
+    {
+      "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\assets\\img\\service-image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\service-image.png"
     },
     {
       "Id": "C:\\Users\\JM-Tecnologias\\Documents\\Projects\\ASPNETProjects\\Kwella\\Kwella\\wwwroot\\css\\site.css",
