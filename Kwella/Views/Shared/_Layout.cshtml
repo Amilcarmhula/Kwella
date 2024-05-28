@@ -25,6 +25,8 @@
 </head>
 
 <body>
+    @model Kwella.Models.Feedback
+
     <div class="container px-5">
         <div class="row">
             <div class="col-12">
@@ -32,30 +34,56 @@
                     <div class="modal-dialog modal-dialog-centered modal-sm  modal-lg-custom">
                         <div class="modal-content">
                             <div class="modal-header bg-danger">
-                                <div class="modal-title"><h4 class="text-white">Send feedback</h4></div>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                <div class="modal-title">
+                                    <h4 class="text-white">Send feedback</h4>
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body py-3">
-                                <input class="form-control p-3" placeholder="Nome Completo">
-                                <input class="form-control p-3" placeholder="Email">
-                                <input class="form-control p-3" placeholder="Contacto">
-                                <textarea class="p-3" placeholder="Mensagem" rows="6" cols="70"></textarea>
-                                <button class="btn btn-danger w-100 " type="button">Submit</button>
-                                <p>Contacte-nos atraves das redes:</p>
-                                <i class="fas fa-alarm-clock"></i>
-                                <i class="fas fa-heart"></i>
+
+                                <form asp-action="Index">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-group">
+                                        <input asp-for="feedName" class="form-control p-3" placeholder=" Nome Completo" />
+                                        <span asp-validation-for="feedName" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="feedContacto" class="form-control p-3" placeholder="Contacto" />
+                                        <span asp-validation-for="feedContacto" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="feedEmail" class="form-control p-3" placeholder="Email" />
+                                        <span asp-validation-for="feedEmail" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea asp-for="feedMensagem" class="p-3" placeholder="Mensagem" rows="6" cols="70"></textarea>
+                                        <span asp-validation-for="feedMensagem" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button class="btn btn-danger w-100 " type="submit">Submit</button>
+                                        <p>Contacte-nos atraves das redes:</p>
+                                    </div>
+                                </form>
 
                             </div>
                             <div class="modal-footer text-start">
+                                <div>
+                                    <a asp-action="Index">Back to List</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact us</a>-->
             </div>
         </div>
     </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
 
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 fixed-top">

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Kwella.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Kwella.Data
@@ -9,5 +10,8 @@ namespace Kwella.Data
             : base(options)
         {
         }
+        
+        public DbSet<Feedback> Feedbacks { get; set; }
+        
     }
 }

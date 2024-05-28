@@ -1,3 +1,4 @@
+using Kwella.Data;
 using Kwella.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -6,11 +7,26 @@ namespace Kwella.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController( ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
+
+        }
+
+        // POST: Homo/Index para criar uma feed no banco de dados 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Index([Bind("Id,feedName,feedContacto,feedEmail,feedMensagem")] Feedback feedback)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(feedback);
+                await _context.SaveChangesAsync();
+                //return RedirectToAction(nameof(Index));
+            }
+            return View();
         }
 
         public IActionResult Index()
